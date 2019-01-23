@@ -1,0 +1,38 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "Narco2"
+    },
+    {
+      "id": 2,
+      "name": "Bombasto"
+    },
+    {
+      "id": 3,
+      "name": "Celeritas Rarka"
+    },
+    {
+      "id": 5,
+      "name": "RubberMan"
+    },
+    {
+      "id": 8,
+      "name": "Magma"
+    },
+    {
+      "id": 9,
+      "name": "Tornado"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postid": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

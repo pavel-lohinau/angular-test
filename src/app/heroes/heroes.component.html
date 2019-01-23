@@ -1,0 +1,8 @@
+<div *ngFor="let hero of heroes$ | async">
+  <mat-card class="heroes" [class.hero]="hero === selectedHero">
+    <mat-card-content>
+      <a [routerLink]="[ '/detail', hero.id ]">{{hero.name}}</a>
+    </mat-card-content>
+  </mat-card>
+</div>
+<router-outlet></router-outlet>
